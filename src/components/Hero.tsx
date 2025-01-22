@@ -13,28 +13,16 @@ export function Hero() {
         <div className="flex flex-wrap justify-center gap-4 sm:gap-8">
           <div className="flex items-center gap-2">
             
-              <img
-  src="/check.svg"
-  alt="check Icon"
-  className="w-6 h-6 text-primary-600"
-/>
+              <Check className="w-5 h-10 text-primary-600" />
            
             <span className="text-sm sm:text-base text-gray-700">Free Forever</span>
           </div>
           <div className="flex items-center gap-2">
-            <img
-  src="/check.svg"
-  alt="check Icon"
-  className="w-6 h-6 text-primary-600"
-/>
+            <Check className="w-5 h-10 text-primary-600" />
             <span className="text-sm sm:text-base text-gray-700">No Sign Up</span>
           </div>
           <div className="flex items-center gap-2">
-            <img
-  src="/check.svg"
-  alt="check Icon"
-  className="w-6 h-6 text-primary-600"
-/>
+            <Check className="w-5 h-10 text-primary-600" />
             <span className="text-sm sm:text-base text-gray-700">Instant Convert</span>
           </div>
         </div>
