@@ -56,11 +56,7 @@ export function Header({ onPageChange, currentPage }: HeaderProps) {
             className="flex items-center cursor-pointer"
             onClick={() => onPageChange('home')}
           >
-            <img
-  src="/Infinity_favicon.svg"
-  alt="Infinite Icon"
-  className="w-10 h-10 text-primary-600"
-/>
+            <Infinity className="w-10 h-10 text-primary-600" />
             <span className="ml-2 text-xl font-bold text-gray-900">InfiniteConvert</span>
           </div>
           <div className="flex items-center gap-6">
