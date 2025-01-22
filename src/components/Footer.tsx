@@ -53,11 +53,7 @@ export function Footer({ onPageChange }: FooterProps) {
               className="flex items-center gap-2 mb-4 cursor-pointer"
               onClick={() => onPageChange('home')}
             >
-             <img
-  src="/Infinity_favicon.svg"
-  alt="Infinite Icon"
-  className="w-10 h-10  text-primary-600"
-/>
+             <Infinity className="w-10 h-10 text-primary-600" />
               <span className="text-xl font-bold text-gray-900">InfiniteConvert</span>
             </div>
             <p className="text-gray-600 mb-6">
