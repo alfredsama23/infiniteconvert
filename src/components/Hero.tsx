@@ -12,17 +12,21 @@ export function Hero() {
         </p>
         <div className="flex flex-wrap justify-center gap-4 sm:gap-8">
           <div className="flex items-center gap-2">
-            
+            <div className="w-5 h-5 rounded-full border-2 border-primary-600 flex items-center justify-center">
               <Check className="w-5 h-10 text-primary-600" />
-           
+            </div>
             <span className="text-sm sm:text-base text-gray-700">Free Forever</span>
           </div>
           <div className="flex items-center gap-2">
-            <Check className="w-5 h-10 text-primary-600" />
+            <div className="w-5 h-5 rounded-full border-2 border-primary-600 flex items-center justify-center">
+              <Check className="w-5 h-10 text-primary-600" />
+            </div>
             <span className="text-sm sm:text-base text-gray-700">No Sign Up</span>
           </div>
           <div className="flex items-center gap-2">
-            <Check className="w-5 h-10 text-primary-600" />
+            <div className="w-5 h-5 rounded-full border-2 border-primary-600 flex items-center justify-center">
+              <Check className="w-5 h-10 text-primary-600" />
+            </div>
             <span className="text-sm sm:text-base text-gray-700">Instant Convert</span>
           </div>
         </div>
