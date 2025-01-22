@@ -1,0 +1,20 @@
+{
+  "name": "InfiniteConvert - Image Converter",
+  "short_name": "InfiniteConvert",
+  "description": "Free online image converter with offline support",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#4F46E5",
+  "icons": [
+    {
+      "src": "/vite.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "orientation": "any",
+  "categories": ["utilities", "productivity"],
+  "prefer_related_applications": false
+}
